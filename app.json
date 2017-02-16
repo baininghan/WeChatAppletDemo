@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/api/api",
+    "pages/component/component"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信接口功能演示",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "/pages/api/api",
+        "text": "API",
+        "iconPath": "https://weui.io/images/icon_tabbar.png",
+        "selectedIconPath": "https://weui.io/images/icon_tabbar.png"
+      },
+      {
+        "pagePath": "/pages/component/component",
+        "text": "组件",
+        "iconPath": "https://weui.io/images/icon_tabbar.png",
+        "selectedIconPath": "https://weui.io/images/icon_tabbar.png"
+      }
+    ],
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "position": "tottom"
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "debug": true
+}
