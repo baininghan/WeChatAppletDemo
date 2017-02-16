@@ -1,2 +1,2 @@
-# WeChatAppletDemo
-WeChat applet demo
+# 微信小程序练习
+包括组件和API的练习
