@@ -16,16 +16,20 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "/pages/api/api",
-        "text": "API",
-        "iconPath": "https://weui.io/images/icon_tabbar.png",
-        "selectedIconPath": "https://weui.io/images/icon_tabbar.png"
+        "pagePath": "pages/index/index",
+        "text": "首页"
       },
       {
-        "pagePath": "/pages/component/component",
-        "text": "组件",
-        "iconPath": "https://weui.io/images/icon_tabbar.png",
-        "selectedIconPath": "https://weui.io/images/icon_tabbar.png"
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/api/api",
+        "text": "API"
+      },
+      {
+        "pagePath": "pages/component/component",
+        "text": "组件"
       }
     ],
     "color": "#000000",
